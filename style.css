@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.body{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(68, 211, 68);
+}
+.board{
+    position: relative;
+    height: 92vmin;
+    width: 90vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+    background-color: gainsboro;
+}
+.head{
+    background-color: gold;
+}
+.snake{
+    background-color: purple;
+}
+.food{
+    background-color: black;
+}
+#scoreBox{
+    position: absolute;
+    top: 3%;
+    left: 75%;
+    font-size: 30px;
+}
+#Highscore{
+    margin: 30px 8px;
+    position: absolute;
+    top: 2%;
+    left: 74%;
+    font-size: 30px;
+}
