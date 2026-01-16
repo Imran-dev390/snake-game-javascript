@@ -1,5 +1,6 @@
 let inputDir = {x:0,y:0};
 let speed = 8;
+let scope = 0; // for changes to save live update
 let score = 0;
 let lastPaintTime = 0;
 let board = document.querySelector(".board");
